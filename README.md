@@ -1,4 +1,5 @@
-# flexy
+# [Flexy](http://liepa.github.io/flexy/)
+
 Basic responsive layout using flexbox and BEM
 
     <div class="container container__rows">
