@@ -1,5 +1,8 @@
 # [Flexy](http://liepa.github.io/flexy/)
 
+* [Simple demo](http://liepa.github.io/flexy/)
+* [BBC layout demo](http://liepa.github.io/flexy/bbc-grid.html)
+
 Basic responsive layout using flexbox and BEM
 
     <div class="container container__rows">
