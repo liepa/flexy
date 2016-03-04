@@ -1,0 +1,5 @@
+.container { display: flex; }
+.container__rows { flex-direction: column; }
+.container__cols { flex-direction: row; }
+.row { flex: 1; }
+.col { flex: 1; }

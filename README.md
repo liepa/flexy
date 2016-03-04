@@ -1,7 +1,7 @@
 # flexy
 Basic responsive layout using flexbox and BEM
 
-    <div class="row container container__rows">
+    <div class="container container__rows">
       <div class="row">Row1</div>
       <div class="row container container__cols">
         <div class="col">Row2 : Col1</div>

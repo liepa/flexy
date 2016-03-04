@@ -17,13 +17,10 @@ pre {
 
 .container {
   padding: 0;
-  height: 100%;
-  display: flex;
   border: none;
   background: #fff;
 }
 
-.container__rows { flex-direction: column; }
-.container__cols { flex-direction: row; }
-.row { flex: 1; }
-.col { flex: 1 0 auto; }
+.main {
+  min-height: 100%;
+}
