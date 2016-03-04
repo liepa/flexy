@@ -10,3 +10,6 @@ Basic responsive layout using flexbox and BEM
         <div class="col">Row2 : Col4</div>
       </div>
     </div>
+
+
+![alt tag](https://raw.githubusercontent.com/liepa/liepa.github.io/master/flexy/images/flexy.png)
