@@ -1,5 +1,6 @@
-.container { display: flex; }
-.container__rows { flex-direction: column; }
-.container__cols { flex-direction: row; }
+.container__rows { display: flex; flex-direction: column; }
+.container__cols { display: flex; flex-direction: row; }
 .row { flex: 1; }
 .col { flex: 1; }
+.container--wrap { flex-wrap: wrap; }
+.container--wrap .col { flex: 1 0 auto; }

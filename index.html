@@ -14,17 +14,18 @@
     <div>
       Not flex, so fixed height
       <pre>
-        .container { display: flex; }
-        .container__rows { flex-direction: column; }
-        .container__cols { flex-direction: row; }
+        .container__rows { display: flex; flex-direction: column; }
+        .container__cols { display: flex; flex-direction: row; }
         .row { flex: 1; }
         .col { flex: 1; }
+        .container--wrap { flex-wrap: wrap; }
+        .container--wrap .col { flex: 1 0 auto; }
       </pre>
     </div>
 
     <div class="row container container__rows">
       <div class="row">Row1</div>
-      <div class="row container container__cols">
+      <div class="row container container__cols container--wrap">
         <div class="col">Row2 : Col1
           Lorem ipsum dolor sit amet,
         </div>
