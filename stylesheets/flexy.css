@@ -3,4 +3,4 @@
 .row { flex: 1; }
 .col { flex: 1; }
 .container--wrap { flex-wrap: wrap; }
-.container--wrap .col { flex: 1 0 auto; }
+.container--wrap > .col { flex: 1 0 auto; }
